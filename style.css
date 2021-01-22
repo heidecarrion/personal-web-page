@@ -3,20 +3,20 @@
 body {
   margin: 0;
   font-family: Lato, sans-serif;
-	background-image: url(images/backgrounds/abstract_smooth_wave_background_grapihic_art_569579.jpg);
+	background-image: url(images/backgrounds/wallhaven-5919d60a5f9b58f4c04e8b26.png);
 }
 
 header {
 	height: 155px;
   background-color: #EC7063;
-  background-image: url(images/backgrounds/wallhaven-5919d60a5f9b58f4c04e8b26.png);
+  background-image: url(images/backgrounds/mesmerizing-bubbles-wallpaper.jpg);
   margin-bottom: 40px;
 }
 
 .logo {
   font-family: 'Satisfy', cursive;
   font-size: 72px;
-  color: #2C3E50;
+  color: whitesmoke;
   text-align: center;
   letter-spacing: -3;
   margin: 0;
