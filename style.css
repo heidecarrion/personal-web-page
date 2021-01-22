@@ -126,7 +126,7 @@ main a {
 	text-decoration: none;	
 }
 
-main a:link { color: #A569BD; }
+main a:link { color: darkblue; }
 main a:visited { color: #5D6D7E; }
 main a:hover { color: #45B39D; }
 a:active { color: #EB984E; }
