@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Heide Carrion | Portfolio</title>
+    <link 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Satisfy&display=swap" 
+    rel="stylesheet">	
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -30,42 +37,104 @@
 
 		<!-- Introduction -->
 		<section>
-		 <img src="images/introduction/profile.jpg" alt="Heide Carrion - Profile  Photo">
-      <h1>Hello! My name is Heide Carrion</h1>
-      <p>I am a software engineer currently residing in the Tampa-St. Petersburg metropolitan area in Florida</p>
-        <p>I have a background in Information Technology and I enjoy:</p>
+			<div class="group">
+				<div class="item">
+           <img src="images/introduction/profile.jpg" 
+           alt="Heide Carrion - Profile  Photo"
+           class="image-enhanced">
+				</div>
+			<div class="item">
+        <h1>Hello! My name is Heide Carrion.</h1>
+        <p>Please allow me to introduce myself. 
+          I am a software engineer currently residing in the Tampa-St. Petersburg metropolitan area in Florida. 
+          I have a background in Information Technology and I enjoy:</p>
         <ul>
           <li>Developing quality code that makes a difference in today's fast-paced world.</li>
           <li>Creating artistic and dynamic web design.</li>
           <li>Teaming up with other engineers to get the job done right.</li>
         </ul>
-
-        <p>Please feel free to peruse my website and <a href="#contact">Contact Me!</a></p>
+        <p>If you are looking for a new engineer to join your company or to add to your team, look no further! 
+          My ultimate goal is to become part of a dynamic team in order to build software that makes an impact on the world. Please feel free to peruse my projects on this website and contact me!</a></p>
+      </div>
+    </div>
     </section>
 
     <!-- About Me -->
-    <section>
-      <h3 class="border-top">About Heide</h3>
-        <p>I have worked as a hardware and software technical support specialist for many years. While majoring in physics during university, I became interested in computer science and learning to code software. All things technological fascinate me. My passion is software with all of its intricacies.</p>
+    <section class="dark-background">
+      <h2 class="border-top">About me:</h2>
+      <div class="group">
+        <div class="item item-double">
+        <p>I have worked as a hardware and software technical support specialist for many years. 
+          While majoring in physics during university, I became interested in computer science and learning to code software. All things technological fascinate me. My passion is software with all of its intricacies. 
+          As a student at <a href="http://thinkful.com">Thinkful</a>, my goal is to continue my enriching journey in software engineering.</p>
 
-        <p>As a student at <a href="http://thinkful.com">Thinkful</a>, my goal is to continue my enriching journey in software engineering.</p>
-
-        <p>If you are looking for a new engineer to join your company or to add to your team, look no further! My ultimate goal is to become part of a dynamic team in order to build software that makes an impact on the world.</p>
+        <p>When I am not coding, I enjoy watching movies, video-editing, reading, cooking, and hanging out with my family. My favorite hobby is weight training!</p>
+      </div>
+      <div class="item">
+        <img src="images/about-me/weight-training-barbell-and-gym.jpg" 
+        alt="Heide Carrion - Weight Training" class="image-enhanced">  
+      </div>      
       </section>
 
+      <!-- Portfolio -->
+    <section>
+			<h2>Portfolio</h2>
+			<div class="group">
+				<div class="item">
+          <img src="images/portfolio/placeholder-image.png" alt="Project One - Heide Carrion" class="rounded">
+          <h3>Project One</h3>
+					<p>This is a description of the Project One I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+				</div>
+				<div class="item">
+          <img src="images/portfolio/placeholder-image.png" alt="Project Two - Heide Carrion" class="rounded">
+          <h3>Project Two</h3>
+					<p>This is a description of the Project Two I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+				</div>
+			</div>
+      <div class="group">
+				<div class="item">
+          <img src="images/portfolio/placeholder-image.png" alt="Project Three - Heide Carrion" class="rounded">
+          <h3>Project Three</h3>
+					<p>This is a description of the Project Three App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+				</div>
+				<div class="item">
+          <img src="images/portfolio/placeholder-image.png" alt="Project Four - Heide Carrion" class="rounded">
+          <h3>Project Four</h3>
+					<p>This is a description of the Project Four I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it.</p>
+				</div>
+			</div>
+		</section>
+
       <!-- Contact -->
-      <section id="contact">
-        <h3 class="border-top">Contact Heide</h3>
-        <p>I look foward to hearing from you. Please contact me:</p>
-        <ol>
-          <li>
-            <a href="https://www.linkedin.com/in/heide-carrion-2973201b8/">LinkedIn</a>
-          </li>
-          <li>
-             <a href="https://github.com/heidecarrion">GitHub</a>
-          </li>
-        </ol>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225584.49530973675!2d-82.6985782516852!3d27.9400711975001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b9c6be5ae77b%3A0x44952e9df4e8ab16!2sTampa-St.%20Petersburg%20Metropolitan%20Area%2C%20FL!5e0!3m2!1sen!2sus!4v1606089340868!5m2!1sen!2sus" height="450" allowfullscreen=""></iframe>
+      <section>
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="item">
+          <form action="#" method="POST">
+            <label for="user-name">Name:</label>
+            <input id="user-name" type="text" name="name">
+  
+            <label for="user-email">Email:</label>
+            <input id="user-email" type="text" name="email">
+  
+            <label for="user-message">Message:</label>
+            <textarea id="user-message" name="message"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          </div>
+          <div class="item item-double">
+            <p>I look foward to hearing from you. Please contact me!</p>
+            <p> 
+            <a href="mailto:heidecarrion@gmail.com
+            subject=We%20are%20interested%20in%20an%20interview!">
+            heidecarrion@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/heide-carrion-2973201b8/">LinkedIn</a></p>
+            <p><a href="https://github.com/heidecarrion">GitHub</a></p>
+            <iframe 
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225584.49530973675!2d-82.6985782516852!3d27.9400711975001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b9c6be5ae77b%3A0x44952e9df4e8ab16!2sTampa-St.%20Petersburg%20Metropolitan%20Area%2C%20FL!5e0!3m2!1sen!2sus!4v1606089340868!5m2!1sen!2sus" 
+             width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
         </section>
     </main>
 
