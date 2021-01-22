@@ -3,13 +3,13 @@
 body {
   margin: 0;
   font-family: Lato, sans-serif;
-	background-image: url(images/backgrounds/mesmerizing-bubbles-wallpaper.png);
+	background-image: url(images/backgrounds/mesmerizing-bubbles-wallpaper.jpg);
 }
 
 header {
 	height: 155px;
 	background-color: #EC7063;
-  background-image: url(images/backgrounds/mesmerizing-bubbles-wallpaper.png);
+  background-image: url(images/backgrounds/abstract_smooth_wave_background_grapihic_art_569579.jpg);
   margin-bottom: 40px;
 }
 
@@ -88,7 +88,7 @@ section.dark-background {
 
 footer {
   background-color: #EC7063;
-  background-image: url(images/backgrounds/mesmerizing-bubbles-wallpaper.png);
+  background-image: url(images/backgrounds/abstract_smooth_wave_background_grapihic_art_569579.jpg);
   margin-top: 40px;
   margin-bottom: 0;
 }
