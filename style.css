@@ -8,7 +8,8 @@ body {
 
 header {
 	height: 155px;
-	background-color: #EC7063;
+  background-color: #EC7063;
+  background-image: url(images/backgrounds/abstract_smooth_wave_background_grapihic_art_569579.jpg);
   margin-bottom: 40px;
 }
 
