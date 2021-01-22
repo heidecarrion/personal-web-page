@@ -1,19 +1,9 @@
-
-/* 
-	STYLE.CSS:
-	Main stylesheet.
-	
-	selector { property:value }
-	
-*/
-
-
 /* -------  General Styles ------- */
 
 body {
   margin: 0;
   font-family: Lato, sans-serif;
-	background-image: url(images/backgrounds/abstract_smooth_wave_background_vector_grapihic_art_569579.jpg);
+	background-image: url(images/backgrounds/mesmerizing-bubbles-wallpaper.png);
 }
 
 header {
@@ -98,7 +88,7 @@ section.dark-background {
 
 footer {
   background-color: #EC7063;
-  background-image: url(images/backgrounds/abstract_smooth_wave_background_vector_grapihic_art_569579.jpg);
+  background-image: url(images/backgrounds/mesmerizing-bubbles-wallpaper.png);
   margin-top: 40px;
   margin-bottom: 0;
 }
