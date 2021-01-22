@@ -10,13 +10,13 @@ header {
 	height: 155px;
   background-color: #EC7063;
   background-image: url(images/backgrounds/mesmerizing-bubbles-wallpaper.jpg);
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .logo {
   font-family: 'Satisfy', cursive;
   font-size: 72px;
-  color: whitesmoke;
+  color: rgb(255,250,250);
   text-align: center;
   letter-spacing: -3;
   margin: 0;
